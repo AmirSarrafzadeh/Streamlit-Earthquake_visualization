@@ -29,3 +29,7 @@ st.markdown("""Use [pygwalker](https://github.com/kanaries/pygwalker) for intera
 df = get_df()
 
 components.html(get_pyg_html(df), width=1300, height=1000, scrolling=True)
+st.markdown(
+    f"<div class='caption' style='text-align: center;'>Made with ❤️ by Amir</div>",
+    unsafe_allow_html=True
+)
